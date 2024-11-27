@@ -6,7 +6,7 @@ from sort import *                                 # to track the number of cars
 
 
 # loading the video file
-cap = cv2.VideoCapture('OD_Assets/cars.mp4')                          
+cap = cv2.VideoCapture('CC_Assets/cars.mp4')                          
 
 # YOLO Model
 model = YOLO('YOLO_Weights/yolov8n.pt') 
@@ -29,7 +29,7 @@ classNames = [
 
 
 # mask
-mask = cv2.imread('OD_Assets/cars_mask.png')                 # since there's lot of regions in the area that are not to be detected and where desired object can not be detected,  so create a mask image that will hide all the undesired regions and will only keep the optimal required region and pass it for the detection
+mask = cv2.imread('CC_Assets/cars_mask.png')                 # since there's lot of regions in the area that are not to be detected and where desired object can not be detected,  so create a mask image that will hide all the undesired regions and will only keep the optimal required region and pass it for the detection
 
 
 # Tracker
