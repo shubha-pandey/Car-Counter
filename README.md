@@ -1,5 +1,5 @@
 # Car Counter 🚗
-A computer vision project to count vehicles in a video feed using YOLO (You Only Look Once) bject detection. 
+A computer vision project to count vehicles in a video feed using YOLO (You Only Look Once) object detection. 
 
 ## Technologies Used
 - Python: Core programming language for the project.
