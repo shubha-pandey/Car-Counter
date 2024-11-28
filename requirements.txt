@@ -1,0 +1,17 @@
+cvzone
+ultralytics
+hydra-core
+numpy==1.26.4
+matplotlib
+opencv-python
+pillow
+pyyaml
+requests
+scipy
+tqdm
+filterpy
+scikit-image
+lap
+tensorflow
+torch==2.0.0
+torchvision==0.15.0
